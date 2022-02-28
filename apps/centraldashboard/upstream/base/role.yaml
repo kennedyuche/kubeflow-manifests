@@ -13,10 +13,12 @@ rules:
   - pods
   - pods/exec
   - pods/log
+  - namespaces   # added
   verbs:
   - get
   - list
   - watch
+  - create       # added
 - apiGroups:
   - ""
   resources:
