@@ -8,9 +8,9 @@ spec:
       app.kubernetes.io/name: sparkoperator
       app.kubernetes.io/instance: spark-operator-v0.7.0
       app.kubernetes.io/managed-by: kfctl
-      app.kubernetes.io/component: sppark-operator
+      app.kubernetes.io/component: spark-operator
       app.kubernetes.io/part-of: kubeflow
-      app.kubernetes.io/version: v0.7.0
+      app.kubernetes.io/version: v1.20.15
   componentKinds:
   - group: core
     kind: Service
